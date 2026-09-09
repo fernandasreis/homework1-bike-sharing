@@ -1,0 +1,146 @@
+# Homework 1 - Work Plan
+
+## Q1 — Dataset selection and initial calculations
+
+- [ ] Record the student numbers of all group members
+- [ ] Identify M (highest student number)
+- [ ] Calculate r = 1 + (M mod 100)
+- [ ] Select 300 consecutive observations starting at observation r
+- [ ] Record the first selected date
+- [ ] Record the last selected date
+- [ ] Create and save `data_group`
+- [ ] Use the first 10 observations for the initial theoretical calculations
+- [ ] Verify the calculations using R
+- [ ] Apply the verified calculations to all 300 observations
+
+## Q2 — Descriptive statistics
+
+### Q2.1 — Variables and data quality
+
+- [ ] Classify the variables as categorical or numerical
+- [ ] Identify the categories of categorical variables
+- [ ] Describe the units/meaning of numerical variables
+- [ ] Check for missing values
+- [ ] Quantify and locate missing values
+
+### Q2.2 — Measures of central tendency
+
+- [ ] Identify relevant numerical variables
+- [ ] Calculate mean
+- [ ] Calculate median
+- [ ] Calculate mode where applicable
+- [ ] Explain the meaning of the measures
+- [ ] Interpret the results in context
+- [ ] Compare theoretical calculations with R
+
+### Q2.3 — Quartiles and outliers
+
+- [ ] Choose one relevant numerical variable
+- [ ] Calculate Q1, Q2 and Q3
+- [ ] Calculate IQR
+- [ ] Determine lower and upper outlier bounds using the IQR criterion
+- [ ] Identify and quantify potential outliers
+- [ ] Record the dates of potential outliers
+- [ ] Discuss their relevance
+
+### Q2.4 — Graphical analysis
+
+- [ ] Create a histogram
+- [ ] Create a boxplot
+- [ ] Analyze shape and spread
+- [ ] Analyze skewness
+- [ ] Analyze possible outliers
+- [ ] Relate the graphs to the previous statistics
+- [ ] Compare what each graph shows best
+
+### Q2.5 — Low usage
+
+- [ ] Use Q1 from Q2.3 as the low-usage criterion
+- [ ] Create `low_usage`
+- [ ] Calculate the number of low-usage days
+- [ ] Calculate the proportion of low-usage days
+- [ ] Explain what low usage means in context
+
+## Q3 — Characteristics associated with lower usage
+
+### Q3.1 — Season
+
+- [ ] Calculate mean total_user by season
+- [ ] Calculate median total_user by season
+- [ ] Calculate standard deviation by season
+- [ ] Calculate proportion of low_usage by season
+- [ ] Create a boxplot comparing seasons
+- [ ] Analyze differences between seasons
+
+### Q3.2 — Weather
+
+- [ ] Calculate mean total_user by weather condition
+- [ ] Calculate standard deviation by weather condition
+- [ ] Calculate proportion of low_usage by weather condition
+- [ ] Choose appropriate statistical/graphical analyses
+- [ ] Analyze differences between weather conditions
+
+### Q3.3 — Temperature
+
+- [ ] Create a scatterplot of temp vs total_user
+- [ ] Calculate the correlation
+- [ ] Interpret direction and intensity
+- [ ] Discuss limitations of correlation
+
+### Q3.4 — Most associated characteristics
+
+- [ ] Choose two characteristics most associated with usage
+- [ ] Justify the choice using statistics and graphs
+
+## Q4 — Temporal and deeper analysis
+
+### Q4.1 — Time series
+
+- [ ] Create a time series of total_user
+- [ ] Identify high-usage periods
+- [ ] Identify low-usage periods
+- [ ] Identify relevant patterns
+
+### Q4.2 — Selected characteristics
+
+- [ ] Revisit the two characteristics selected in Q3
+- [ ] Choose one visualization for each
+- [ ] Choose one statistical measure for each
+- [ ] Analyze the association with total_user
+- [ ] Compare with the conclusions from Q3
+
+### Q4.3 — Temperature and low usage
+
+- [ ] Revisit the temp vs total_user relationship
+- [ ] Distinguish low_usage days from the remaining days visually
+- [ ] Analyze the resulting patterns
+- [ ] Discuss whether the relationship differs between the groups
+
+### Q4.4 — Final conclusion
+
+- [ ] Write a 100–200 word conclusion
+- [ ] Summarize the main findings
+- [ ] Identify the strongest associated characteristics
+- [ ] Support conclusions with relevant statistics and graphs
+
+## Final report
+
+- [ ] Short introduction for each exercise
+- [ ] Dataset description
+- [ ] Tools/packages/methods
+- [ ] Theoretical calculations
+- [ ] R verification
+- [ ] Relevant graphs and tables
+- [ ] Interpretations
+- [ ] Final PDF
+
+## Repository
+
+- [ ] Final PDF
+- [ ] R source code
+- [ ] Auxiliary files
+- [ ] README completed
+- [ ] Execution instructions completed
+- [ ] Dependencies documented
+- [ ] Individual contributions documented
+- [ ] All group members added as collaborators
